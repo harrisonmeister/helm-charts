@@ -1,0 +1,9 @@
+# Overrides values for simple-helm.
+image:
+  pullPolicy: IfNotPresent
+
+nameOverride: "simple-helm-test"
+
+ingress:
+  hosts:
+    - host: simple-helm-test.local

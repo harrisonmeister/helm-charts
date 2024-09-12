@@ -1,0 +1,9 @@
+# Overrides values for simple-helm.
+image:
+  pullPolicy: Always
+
+nameOverride: "simple-helm-dev"
+
+ingress:
+  hosts:
+    - host: simple-helm-dev.local
