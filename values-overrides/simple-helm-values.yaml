@@ -1,0 +1,3 @@
+# Overrides values for simple-helm.
+image:
+  pullPolicy: Always
