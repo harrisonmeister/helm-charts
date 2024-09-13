@@ -2,7 +2,9 @@
 image:
   pullPolicy: Always
 
-nameOverride: "simple-helm-dev"
+service:
+  type: NodePort
+  port: 80
 
 ingress:
   hosts:

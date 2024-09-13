@@ -2,7 +2,9 @@
 image:
   pullPolicy: IfNotPresent
 
-nameOverride: "simple-helm-test"
+service:
+  type: NodePort
+  port: 80
 
 ingress:
   hosts:
